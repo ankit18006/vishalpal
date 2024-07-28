@@ -92,4 +92,4 @@ if st.button(label="Generate"):
             else:
                 st.error("No story data received.")
 
-st.markdown("copyright vishal 2024")
+st.markdown("© 2024 Vishal Pal")
