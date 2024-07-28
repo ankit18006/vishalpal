@@ -41,7 +41,7 @@ def parse_story_response(response):
     
     return title, p1, p2, p3, p4, prompt
 
-st.title('Story AI By Ozi')
+st.title('Story Generator by Vishal')
 
 api_key = st.text_input("Enter your API Key", type="password")
 characters = st.text_area(label="Characters")
@@ -91,3 +91,5 @@ if st.button(label="Generate"):
                     st.error("Failed to generate or parse story.")
             else:
                 st.error("No story data received.")
+
+st.markdown("copyright vishal 2024")
